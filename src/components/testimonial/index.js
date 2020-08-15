@@ -1,5 +1,6 @@
 import React from 'react';
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { Grid, Typography } from '@material-ui/core';
 import { withRouter } from "react-router-dom";
 import { withStyles } from '@material-ui/core';
