@@ -1,4 +1,6 @@
 import React from "react";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { Grid } from '@material-ui/core';
 import { withRouter } from "react-router-dom";
 import { withStyles } from '@material-ui/core';
@@ -8,8 +10,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+
 import {dummyData} from './data'
 const styles = (theme) => ({
 
